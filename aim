@@ -6,12 +6,12 @@ getgenv().Silent = {
     Settings = {
         Toggled = true,
         AimPart = "HumanoidRootPart", --> HumanoidRootPart, UpperTorso, LowerTorso, Head <-- Main Parts
-        HitChance = 70, 
+        HitChance = 100, 
         
         Prediction = {
             Enabled = true,
-            Horizontal = 0.13745, --> X, Z
-            Vertical = 0.13745, --> Y
+            Horizontal = 0.206015, --> X, Z
+            Vertical = 0.206015, --> Y
         },
        
         Circle = {
@@ -20,7 +20,7 @@ getgenv().Silent = {
             Transparency = 1,
             Thickness = 1.5,
             NumSides = 1000,
-            Radius = 85, --> Change Circle Size Here
+            Radius = 150, --> Change Circle Size Here
             Filled = false,
         },
     },
